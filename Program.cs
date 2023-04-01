@@ -30,8 +30,10 @@
                 // TODO: Kurallar eklenecek.
                 Console.WriteLine("Kurallar: asdfasdaads");
 
-                if (hazirCevap != 'E')
+                Console.Write("Hazır Mısınız? : ");
+                char hazirCevap = char.Parse(Console.ReadLine().ToUpper());
 
+                if (hazirCevap != 'E')
 
 
             }
