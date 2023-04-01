@@ -18,6 +18,9 @@
             string telefonJoker2 = Console.ReadLine();
             Console.Write("3.Telefon Jokerinizi Giriniz: ");
             string telefonJoker3 = Console.ReadLine();
+            
+            Console.Clear();
+            Console.WriteLine("Hoşgeldiniz " + isim + " " + soyisim);
 
         }
     }
