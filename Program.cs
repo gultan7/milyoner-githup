@@ -21,6 +21,11 @@
             
             Console.Clear();
             Console.WriteLine("Hoşgeldiniz " + isim + " " + soyisim);
+            
+            Console.Write("Kurallar: ");
+            char kuralCevap = char.Parse(Console.ReadLine().ToUpper());
+
+
 
         }
     }
