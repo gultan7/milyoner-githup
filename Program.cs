@@ -34,9 +34,13 @@
                 char hazirCevap = char.Parse(Console.ReadLine().ToUpper());
 
                 if (hazirCevap != 'E')
+                {
+                    Console.WriteLine("Hazır olmananız bekleniyor.");
+                    Console.WriteLine("Hazır olduğunuzda Enter'a Basın");
+                    Console.ReadLine();
 
 
-            }
+                }
     }
     }
         }
