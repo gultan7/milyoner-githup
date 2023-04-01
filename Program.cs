@@ -35,12 +35,12 @@
 
                 if (hazirCevap != 'E')
                 {
-                    Console.WriteLine("Hazır olmananız bekleniyor.");
-                    Console.WriteLine("Hazır olduğunuzda Enter'a Basın");
-                    Console.ReadLine();
+                    {
+                        Console.WriteLine("Hazır olmananız bekleniyor.");
+                        Console.WriteLine("Hazır olduğunuzda Enter'a Basın");
+                        Console.ReadLine();
 
-
-                }
+                    }
     }
     }
         }
