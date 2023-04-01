@@ -30,6 +30,8 @@
                 // TODO: Kurallar eklenecek.
                 Console.WriteLine("Kurallar: asdfasdaads");
 
+                if (hazirCevap != 'E')
+
 
 
             }
