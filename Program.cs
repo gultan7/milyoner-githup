@@ -21,8 +21,8 @@
             
             Console.Clear();
             Console.WriteLine("Hoşgeldiniz " + isim + " " + soyisim);
-            
-            Console.Write("Kurallar: ");
+
+            Console.Write("Kuralları Biliyor Musunuz? : ");
             char kuralCevap = char.Parse(Console.ReadLine().ToUpper());
 
 
