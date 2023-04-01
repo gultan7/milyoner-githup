@@ -25,11 +25,14 @@
             Console.Write("Kuralları Biliyor Musunuz? : ");
             char kuralCevap = char.Parse(Console.ReadLine().ToUpper());
 
-            Console.WriteLine("Kurallar: asdfasdaads");
+            if (kuralCevap != 'E')
+            {
+                // TODO: Kurallar eklenecek.
+                Console.WriteLine("Kurallar: asdfasdaads");
 
 
 
-        }
+            }
     }
     }
         }
